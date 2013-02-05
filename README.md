@@ -1,4 +1,4 @@
 # WordPress Foundation Theme
 
-An extremely minimalist WordPress theme intended to be a foundation for theme developers to work off of.
+An extremely minimalist WordPress theme intended as a foundation for theme developers.
 
