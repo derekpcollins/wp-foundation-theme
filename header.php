@@ -9,7 +9,7 @@
   <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
 
-    <title><?php wp_title('|',true,'right'); ?>The KISSmetrics Blog</title>
+    <title><?php bloginfo( 'name' ); ?> <?php wp_title(); ?></title>
 
     <link rel="stylesheet" media="all"  href="<?php bloginfo('stylesheet_directory'); ?>/style.css" />
 
@@ -22,4 +22,12 @@
     <?php wp_head(); ?>
   </head>
 
-  <body <?= body_class(); ?>>
+  <body <?php echo body_class(); ?>>
+    <header class="site-header">
+      <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+      <p class="site-description"><?php bloginfo( 'description' ); ?></p>
+
+      <nav class="site-navigation">
+        <?php wp_nav_menu(); ?>
+      </nav>
+    </header><!-- .site-header -->

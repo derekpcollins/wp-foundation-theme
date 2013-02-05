@@ -15,7 +15,7 @@
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <header class="post-header">
-    <h3 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+    <h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
   </header><!-- .post-header -->
 
   <div class="post-content">
