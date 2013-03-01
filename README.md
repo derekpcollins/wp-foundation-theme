@@ -10,7 +10,6 @@ It is intentionally minimalist and I tried to make very few assumptions about wh
 
 ## File Structure
 
-<<<<<<< HEAD
 ### header.php and footer.php
 
 These 2 files contain the code that will show up at the top and bottom (respectively) of each of your pages. They must be included by any of the pages on your site.
@@ -26,9 +25,6 @@ The footer file contains the footer of your page, the closing `</body>` tag and 
 ### sidebar.php
 
 This file allows you to include an (optional) sidebar on any of your pages. By defualt it is included within index.php, single.php, archive.php and page.php. The sidebar is also set up to include widgets that can be added to the sidebar and maintained vai the WordPress Admin.
-=======
-*Coming sooner or later*
->>>>>>> 5b934d3288033fc0c01a5de9f7a6dbb2d6682139
 
 ## License
 
