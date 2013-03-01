@@ -20,11 +20,46 @@ The header file contains the `DOCTYPE`, opening `<html>` tag, the `<head>` secti
 
 #### footer.php
 
-The footer file contains the footer of your page, the closing `</body>` tag and the close `</html>` tag.
+The footer file contains the footer of your page, the closing `</body>` tag and the closing `</html>` tag.
 
 ### sidebar.php
 
-This file allows you to include an (optional) sidebar on any of your pages. By defualt it is included within index.php, single.php, archive.php and page.php. The sidebar is also set up to include widgets that can be added to the sidebar and maintained vai the WordPress Admin.
+This file allows you to include an (optional) sidebar on any of your pages. By defualt it is included within index, single, archive and page. The sidebar is also set up to include widgets that can be added to the sidebar and maintained via the WordPress Admin.
+
+### index.php
+
+The index file controls the look of your home page. By default it contains the loop that will return the most recent posts. The look of the posts are then contained within the post template, which we'll cover in more detail below.
+
+### single.php
+
+This file controls the look of individual posts.
+
+### page.php
+
+This file controls what individual WordPress pages look like. Keep in mind that this is the [WordPress constructe of pages](http://codex.wordpress.org/Pages).
+
+### archive.php
+
+This file controls the look of archive pages, including date, category and tag archives. You can, however, create separate templates for these if you want.
+
+### comments.php
+
+This file controls the look of the comments section on the single post page. It contains HTML for both the comment form and the list of comments that are displayed on the page.
+
+### functions.php
+
+This file allows you write custom functions to modify or override aspects of your theme. I'm only including the `register_sidebar()` function here in order to allow widgets in the sidebar.
+
+### style.css
+
+This is where you'll place all of your CSS code that defines the look and feel of your site. I haven't defined any styles for you.
+
+## Resources
+
+Here are a couple of resources that will be helpful as you developer your own custom theme:
+
+- [Yoast's Anatomay of a WordPress Theme Infographic](http://yoast.com/wordpress-theme-anatomy/)
+- [WordPress Template Hierarchy Documentation](http://codex.wordpress.org/Template_Hierarchy)
 
 ## License
 
