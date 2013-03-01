@@ -40,7 +40,7 @@ This file controls what individual WordPress pages look like. Keep in mind that 
 
 ### archive.php
 
-This file controls the look of archive pages, including date, category and tag archives. You can, however, create separate templates for these if you want.
+This file controls the look of archive pages, including date, category, tag and author archives. You can, however, create separate templates for these if you want.
 
 ### comments.php
 
@@ -53,6 +53,20 @@ This file allows you write custom functions to modify or override aspects of you
 ### style.css
 
 This is where you'll place all of your CSS code that defines the look and feel of your site. I haven't defined any styles for you.
+
+## Considerations
+
+### Search
+
+I didn't include a search page or searchform template. I may change this in the future, but I was trying to keep things as simple as possible. If a search page template doesn't exist, then WordPress will default to use the index template for the search results.
+
+### Archives
+
+I didn't include separate templates for category, tag and author archives. Again, I wanted to keep things simple and I think that in most cases the archvie template will serve nicely as the template for any of these other acrhive types.
+
+One thing that you might want to consider (and something that I may add to the archive template in the future) is to include a conditional in the archive template that will allow you to show a different title for each acrhive type. For example, you could have a title such as "Archive for Test Category" instead of a generic title like "Archive" when someone clicks on a category link.
+
+*More details on this coming soon.*
 
 ## Resources
 
