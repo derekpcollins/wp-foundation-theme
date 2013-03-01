@@ -36,7 +36,7 @@ This file controls the look of individual posts.
 
 ### page.php
 
-This file controls what individual WordPress pages look like. Keep in mind that this is the [WordPress constructe of pages](http://codex.wordpress.org/Pages).
+This file controls what individual WordPress pages look like. Keep in mind that this is the [WordPress construct of pages](http://codex.wordpress.org/Pages).
 
 ### archive.php
 
