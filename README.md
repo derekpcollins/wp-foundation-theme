@@ -10,15 +10,11 @@ It is intentionally minimalist and I tried to make very few assumptions about wh
 
 ## File Structure
 
-### header.php and footer.php
-
-These 2 files contain the code that will show up at the top and bottom (respectively) of each of your pages. They must be included by any of the pages on your site.
-
-#### header.php
+### header.php
 
 The header file contains the `DOCTYPE`, opening `<html>` tag, the `<head>` section, the opening `<body>` tag and the header of your page, which includes the first heading and the navigation for your site.
 
-#### footer.php
+### footer.php
 
 The footer file contains the footer of your page, the closing `</body>` tag and the closing `</html>` tag.
 
