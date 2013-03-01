@@ -58,6 +58,7 @@ This is where you'll place all of your CSS code that defines the look and feel o
 
 Here are a couple of resources that will be helpful as you developer your own custom theme:
 
+- [WordPress Theme Development Documentation](http://codex.wordpress.org/Theme_Development)
 - [Yoast's Anatomay of a WordPress Theme Infographic](http://yoast.com/wordpress-theme-anatomy/)
 - [WordPress Template Hierarchy Documentation](http://codex.wordpress.org/Template_Hierarchy)
 
