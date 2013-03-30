@@ -66,7 +66,7 @@ One thing that you might want to consider (and something that I may add to the a
 
 ## Resources
 
-Here are a couple of resources that will be helpful as you developer your own custom theme:
+Here are a couple of resources that will be helpful as you develop your own custom theme:
 
 - [WordPress Theme Development Documentation](http://codex.wordpress.org/Theme_Development)
 - [Yoast's Anatomay of a WordPress Theme Infographic](http://yoast.com/wordpress-theme-anatomy/)
